@@ -1,0 +1,11 @@
+services:
+  spring-boot-rest-api:
+    container_name: rest-api
+    build:
+      context: .
+      dockerfile: Dockerfile
+    tty: true
+    volumes:
+      - ../:/home/vscode/workspace:cache
+    ports:
+      - 8080:8080
