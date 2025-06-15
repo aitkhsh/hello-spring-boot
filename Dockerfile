@@ -38,3 +38,4 @@ RUN chmod +x ./gradlew \
 
 # アプリ起動
 CMD bash -lc "source /home/vscode/.sdkman/bin/sdkman-init.sh && java -jar build/libs/demo-0.0.1-SNAPSHOT.jar"
+
